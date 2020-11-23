@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "todo",
+  "usingComponents": {
+    "list": "/components/list",
+    "hd": "/pages/index/components/header/index",
+    "nodata": "/pages/index/components/noData/index",
+    "ct": "/pages/index/components/create/index"
+  }
+}

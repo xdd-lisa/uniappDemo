@@ -1,0 +1,106 @@
+@font-face {font-family: "iconfont";
+  src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAN0AAsAAAAAB5gAAAMoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCdIJ1ATYCJAMMCwgABCAFhG0HQhvHBhFVlA1kPwvshusTRVNq0ClgbGP/L+rb+kVgsuB+P0RQ7ffZs7MPDjAEClClIonJaCBjSZ9NxegoAhWh/sA6G4xSRYQI1S2kueIj2D5PCOUR3/m2pprBDAOQAPJCuRy3WcZE6/3LWz69Mvloy0gRKoAtYO25Rd95f9yrmmweC+ezWFzezxzTQrkALQ1QgGbHWFSyFqRAXoXhtS7jcQLDllondiY2H6hXmccF4mFRTIP6jEtt6A690FZcWsUbjb48LUu8Dn4//lkfKIommaceva3Pgbb+lP18Am0P2i56JOrpAuCvIrEOlbhcGToro9I6aVg11ebmVhXKVFkAIFBplnaj/3iFaJmdo2AVyoWfGx05wc8nX1BAghYdnuAT6LP7qlzAxuFHmfy1r9Pnsy3s7C4XYW9zOgnb6+PRVT36pnbe1KszddptDuO67zpXWPzzt+2ZL7aDoQLCDirYnj6/by8fu9Pb5vj6GEaIhPiq83kfCCp8AZnfJw/6AVXUK3GJazWxS+K9s9HHGNPLvZK7ilPh1zvsoD1LdLxKhafjG0c2+vZKhZkx8kcMf7wkGYlOT+LJHDLei9zN8ZES/aABO9hcBmxnIey7BggDnEP046X9O9jvdYZBoGu4T1g5k4HVhWfT6KNM3XbQVTAoX3J7UDE/894/+xur/3/gJFH2349U8PnL1IMjBlaqvNfr6e8oHPwhdceJqmlNd1ZF5aiMcDqQSiiAEMz+Sy9M+xtumdO5QOgzah6KzhJIvWXkSl8HjREboNXbAsPWSq8eMQsZijqENZ4EwqRvKMZ9hDTph1zpv9CY6x9akzGEYadj1i1HrIjC20FasFaQ3aGQ2Brby17YvdT2XAtKawPRVpMrshD5Yb6a6lbTFGe4i42ZDRjCBhLyNF3XCB1hqSX7OXM3CQJT9U2+xKbn2YFoAtMUkLkDBQm1jLeYeYWfX9Kss5pADWNVxS2NOMX6IOILO5BTU9tp7Fa+4lxYMcYMYBDUAAkJaLVVQqCr3lfSJObLBxQ6EwGdZrqa/OUtzftdgWHm5owSGVXeL8TIGW5FJVqbCbyFoovGvR4=') format('woff2')
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-jia:before {
+  content: "\e63c";
+}
+.icon-jinakangbaoicons18:before {
+  content: "\e66f";
+}
+.bj{
+	font-size:24px;
+}
+.c{
+	color: red;
+}
+.todo-content{
+	position: relative;
+	/* padding: 10px; */
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.todo-list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #cfebfd;
+	margin: 10px;
+	padding: 10px;
+	color: #0c3854;
+	border-radius: 7px;
+	box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+.todo-list::after{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	background-color: #91d1e8;
+	display: block;
+}
+.todo-list-checkbox{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-left: 10px;
+	box-shadow: 0 0 5px 1px rgba(0,0,0,0.1) -1px 2px 1px 0 rgb(255,255,255) inset;
+}
+.todo-list-content{
+	padding-left: 8px;
+	font-size: 12px;
+}
+.todo-finish .todo-list-checkbox{
+	position: relative;
+	background-color: #eee;
+}
+.todo-finish .todo-list-checkbox:after{
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: #CFEBFD;
+	border-radius: 50%;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.2) inset;
+}
+.todo-finish .todo-list-content{
+	color: #999999;
+}
+.todo-finish.todo-list:after{
+	background: #ccc;
+}
+.todo-finish.todo-list:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 30px;
+	right: 10px;
+	bottom: 0;
+	height: 2px;
+	margin: auto 0;
+	display: block;
+	background: #bdcdd8;
+}
+
+
+
+

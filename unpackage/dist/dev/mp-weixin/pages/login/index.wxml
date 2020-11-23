@@ -1,0 +1,1 @@
+<view class="container-login data-v-4586967a"><block wx:if="{{num>5}}"><view class="data-v-4586967a">{{message}}</view></block><block wx:else><view class="data-v-4586967a">{{param}}</view></block><block wx:for="{{detailList}}" wx:for-item="item" wx:for-index="index"><view class="list br data-v-4586967a"><text class="data-v-4586967a">{{item.name}}</text></view></block></view>

@@ -1,0 +1,10 @@
+
+.default{
+	padding-top: 20px;
+}
+.default-info{
+	text-align: center;
+	font-size: 14px;
+	color: #ccc;
+}
+

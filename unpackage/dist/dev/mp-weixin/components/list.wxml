@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="com-list" bindtap="__e"><list vue-id="4237fccd-1" bind:__l="__l" vue-slots="{{['default']}}">{{name}}</list></view>
